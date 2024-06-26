@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>SR University GPA Calculator</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <div class="container">
+      <marquee><p>Hi, This Is Webdev Enigma Assignment 3 Task 1. We Have Used Our College Criteria To Calculate GPA. I and My Friend From Same University, Enrolled In Summer School Have Done It Together, Thank You.</p></marquee>
+          <div class="text-center my-4">
+              <a target="_blank" href="https://www.sru.edu.in/">
+                  <img class="logo" src="SR_University_Logo.jpeg" alt="SR University Logo">
+              </a>
+          </div>
+          <h2 class="my-4 text-center">Relative Grading Chart</h2>
+
+          <div class="table-responsive my-4">
+              <table class="table table-bordered">
+                  <thead>
+                      <tr>
+                          <th>Grade</th>
+                          <th>O</th>
+                          <th>A</th>
+                          <th>B</th>
+                          <th>C</th>
+                          <th>D</th>
+                          <th>F</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th>Value</th>
+                          <td>10</td>
+                          <td>10</td>
+                          <td>8</td>
+                          <td>6</td>
+                          <td>4</td>
+                          <td>0</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+
+          <h1 class="my-4 text-center">SR University GPA Calculator</h1>
+
+          <div class="form-group">
+              <label for="inputCoursesNumber">Number of Courses:</label>
+              <input type="number" class="form-control" id="inputCoursesNumber" placeholder="Enter number of courses">
+          </div>
+
+          <button id="submitButton" class="btn btn-primary btn-block">Enter Course Portfolio</button>
+        
+          <div id="courseDetails" class="mt-4">
+        </div>
+        </center>
+          </br>
+          <div id="output"></div>
+        </center>
+      </div>
+      </br></br>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+      <script src="GradeMap.js"></script>
+      <script src="Calc_GPA.js"></script>
+  </body>
+
+</html>
